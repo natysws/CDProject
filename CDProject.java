@@ -10,12 +10,12 @@ import java.lang.Math;
  * @author natalie
  */
 public class CDProject {
-    private int principal;
+    private double principal;
     private int maturity;
     private double IR;
     private String CM;
     
-    public void commonData(int p, int m, double Interest, String Comp)
+    public void commonData(double p, int m, double Interest, String Comp)
     {
         principal= p;
         maturity = m;
@@ -49,5 +49,8 @@ public class CDProject {
         double acc = this.pow(num*CM);
         return acc;
     }
+      public String toString() {
+        return "Accumulated Value" + acc;
+      }
     
 }
