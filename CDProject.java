@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package cdproject;
-
+import java.lang.Math;
 /**
  *
  * @author natalie
@@ -45,7 +45,9 @@ public class CDProject {
         {
             num = num*4;
         }
-        double this = principal(1+(IR/n));
-        
+        double this = principal(1+(IR/num));
+        double acc = this.pow(num*CM);
+        return acc;
     }
+    
 }
