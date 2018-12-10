@@ -12,13 +12,13 @@ public class CDList{
     public void getCDs
     {
     while(file.hasNextLine()){
-        
+        while(file.hasNextInt)
+            double Principal = (double)file.nextInt();
+            int yr = file.nextInt();
+            double interest = file.nextDouble();
+            String comp = file.nextString();
     }
      
-}
-    public void addCD()
-    {
-    
 }
     public void printReport(year){
     System.out.print("hi");
