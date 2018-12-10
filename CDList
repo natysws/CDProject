@@ -8,6 +8,7 @@ import java.util.Scanner;
  * @author yungharvard
  */
 public class CDList{
+    public 
     Scanner file = new Scanner(new File("CD_Dade.txt"));
     public void getCDs
     {
@@ -24,5 +25,5 @@ public class CDList{
     public void printReport(year){
     System.out.print("hi");
 }
-}
+
 
