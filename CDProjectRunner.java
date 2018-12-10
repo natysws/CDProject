@@ -15,7 +15,9 @@ public class CDProjectRunner {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       Scanner file = new Scanner(new File("CD_Dade.txt"));
+       String CD = file.nextLine()
+       
     }
     
 }
